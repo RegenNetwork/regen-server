@@ -228,7 +228,7 @@ app.use(
 app.use('/website/v1', mailerlite);
 app.use('/website/v1', contact);
 app.use('/marketplace/v1', buyersInfo);
-app.use('/marketplace/v1', auth);
+app.use('/marketplace/v1/auth', auth);
 app.use('/marketplace/v1', files);
 app.use('/data/v1', metadataGraph);
 app.use('/marketplace/v1/web3auth', web3auth);
@@ -257,7 +257,7 @@ const swaggerOptions = {
       description: 'API docs for the regen-server',
       contact: {
         name: 'regen-network/regen-server',
-        url: 'https://github.com/regen-network/regen-server',
+        url: 'https://github.com/RegenNetwork/regen-server',
       },
     },
   },

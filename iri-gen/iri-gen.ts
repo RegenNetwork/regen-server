@@ -18,7 +18,7 @@ const iriVersion0 = 0;
  * digest_algorithm is BLAKE2b-256
  * and no merkle_tree
  * This is more or less copied from regen-ledger data module:
- * https://github.com/regen-network/regen-ledger/blob/87d2035d0e1815a65abc7ce6f68c535dd845a23e/x/data/iri.go#L60
+ * https://github.com/RegenNetwork/regen-ledger/blob/87d2035d0e1815a65abc7ce6f68c535dd845a23e/x/data/iri.go#L60
  * @param  {string} hash represents the hash of some JSON-LD data based on BLAKE2b-256
  * @returns string
  */

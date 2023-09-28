@@ -187,7 +187,7 @@ the basic concepts involved in writing an openapi specification.
 
 ## SHACL Graphs
 
-[SHACL](https://www.w3.org/TR/shacl/) schemas have been migrated to https://github.com/regen-network/regen-registry-standards
+[SHACL](https://www.w3.org/TR/shacl/) schemas have been migrated to https://github.com/RegenNetwork/regen-registry-standards
 
 These graphs can be stored too in the PostGres database in the `schacl_graph` table in order to be queried using GraphQL and used for client-side validation.
 The `schacl_graph` table has an `uri` as primary key and a jsonb column `graph` where a SHACL graph is encoded as JSON-LD.
